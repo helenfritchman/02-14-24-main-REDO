@@ -17,14 +17,14 @@
     <div id="omars-container">
       <!-- Header---------------------------------------------------------- -->
       <div class="header-container">
-        <div class="title">
+        <div id="title">
           <h1>
             THE <br />
             RICHMOND <br />
             REVIEW
           </h1>
         </div>
-        <div class="date">
+        <div id="date">
           <h2>JANUARY '24</h2>
         </div>
         <div class="corner">
@@ -36,13 +36,38 @@
 
       <div class="article-heading">
         <div class="author">
-          <div class="author-name">ClarisseKim</div>
+          <div id="author-name">ClarisseKim</div>
         </div>
-        <img class="pinkdot" src="images/pinkdot-1.png" alt="pinkdot" />
-        <img class="pinkdot2" src="images/pinkdot-1.png" alt="pink dot" />
-        <img class="pinkdot3" src="images/pinkdot-1.png" alt="pink dot" />
-        <img class="pinkdot4" src="images/pinkdot-1.png" alt="pink dot" />
-        <img class="pinkdot5" src="images/pinkdot-1.png" alt="pink dot" />
+        <img
+          id="pinkdot"
+          class="dots"
+          src="images/pinkdot-1.png"
+          alt="pinkdot"
+        />
+        <img
+          id="pinkdot2"
+          class="dots"
+          src="images/pinkdot-1.png"
+          alt="pink dot"
+        />
+        <img
+          id="pinkdot3"
+          class="dots"
+          src="images/pinkdot-1.png"
+          alt="pink dot"
+        />
+        <img
+          id="pinkdot4"
+          class="dots"
+          src="images/pinkdot-1.png"
+          alt="pink dot"
+        />
+        <img
+          id="pinkdot5"
+          class="dots"
+          src="images/pinkdot-1.png"
+          alt="pink dot"
+        />
         <div class="article-heading-triangle"></div>
         <div class="bars">
           <div class="purplebar"></div>
@@ -54,17 +79,20 @@
       <div class="outer-container1">
         <div class="left">
           <img
-            class="redflower"
+            id="redflower"
+            class="flower-red"
             src="images/redflowerUSE.png"
             alt="red flower"
           />
           <img
-            class="redflower2"
+            id="redflower2"
+            class="flower-red"
             src="images/redflowerUSE.png"
             alt="redflower"
           />
           <img
-            class="redflower3"
+            id="redflower3"
+            class="flower-red"
             src="images/redflowerUSE.png"
             alt="red flower"
           />
@@ -117,23 +145,26 @@
             </p>
           </div>
           <img
-            class="yellowflower"
+            id="yellowflower"
+            class="flower"
             src="images/yellowflower2.png"
             alt="yellow flower"
           />
           <img
-            class="yellowflower2"
+            id="yellowflower2"
+            class="flower"
             src="images/yellowflower2.png"
             alt="yellowflower"
           />
           <img
-            class="yellowflower3"
+            id="yellowflower3"
+            class="flower"
             src="images/yellowflower2.png"
             alt="yellowflower"
           />
           <img class="bagel" src="images/BagelCropped-1.png" alt="bagel" />
         </div>
-        <div class="roundbox">
+        <div id="roundBox" onclick="changeColor()">
           <div class="newbakers">
             <div class="newbakertext">
               New <br />
@@ -165,7 +196,10 @@
         </div>
       </div>
 
-      <div class="continue">TO BE CONTINUED!</div>
+      <div id="continue">TO BE CONTINUED!</div>
+      <div id="subscribe">Subscribe to The Richmond Review!</div>
+      <div class="url-name">richmondsunsetnew.com</div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

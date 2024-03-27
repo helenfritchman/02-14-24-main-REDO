@@ -41,14 +41,14 @@ body {  overflow-x: hidden; /* Hide horizontal scrollbar */ }
   justify-content: space-between;
 }
 
-.title{
+#title{
 font-family: 'League Gothic';
 color: white;
 font-size: 3.75vw;
  line-height: 5.5vw;
 }
 
-.date{
+#date{
   font-family: 'League Gothic';
   color: white;
   font-size: 3vw;
@@ -78,39 +78,39 @@ font-size: 3.75vw;
 
 }
 
-.author-name{
+#author-name{
   font-family: 'League Gothic';
   font-size: 2.5vw;
 
 }
 
-.pinkdot{
+#pinkdot{
   width:2vw;
   height: 2vw;
   margin-top: .5vw;
   margin-left: .5vw;
 }
 
-.pinkdot2{
+#pinkdot2{
   width: 2vw;
   height: 2vw;
   margin-top: .5vw;
   margin-left: 1.8vw;
 }
-.pinkdot3{
+#pinkdot3{
   width: 2vw;
   height: 2vw;
   margin-top: .5vw;
   margin-left: 2.0vw;
 }
-.pinkdot4{
+#pinkdot4{
   width: 2vw;
   height: 2vw;
   margin-top: .5vw;
   margin-left: 2.2vw;
 }
 
-.pinkdot5{
+#pinkdot5{
   width: 2vw;
   height: 2vw;
   margin-top: .5vw;
@@ -173,7 +173,7 @@ font-size: 3.75vw;
 
 
 
-.roundbox{
+#roundBox{
   background-color: #6A70A7;
   height: 40vw;
   width: 40vw;
@@ -208,17 +208,17 @@ font-size: 3.75vw;
   width: 32vw;
 }
 
-.yellowflower{
+#yellowflower{
   transform: translate(48vw,-50vw);
   width: 12vw;
 }
 
-.yellowflower2{
+#yellowflower2{
   width: 12vw;
   transform: translate(35.75vw,-35vw);
 }
 
-.yellowflower3{
+#yellowflower3{
   width: 12vw;
   transform: translate(23.5vw,-20vw);
 }
@@ -228,18 +228,18 @@ font-size: 3.75vw;
   width: 38vw;
 }
 
-.redflower{
+#redflower{
  width: 6vw;
  transform: translate(17vw,50vw);
 }
 
-.redflower2{
+#redflower2{
   width: 6vw;
   transform: translate(19vw,50vw);
 
 }
 
-.redflower3{
+#redflower3{
   width: 6vw;
   transform: translate(21vw,50vw);
 
@@ -281,7 +281,7 @@ font-size: 3.75vw;
 }
 
 
-.continue{
+#continue{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10vw;
 }
@@ -340,16 +340,16 @@ font-size: 3.75vw;
     margin-top: 2vw;}
   
 
-   .yellowflower{
+   #yellowflower{
     width: 14vw;
     transform: translate(74vw,-238vw);}
  
    
-   .yellowflower2{
+   #yellowflower2{
     width: 14vw;
     transform: translate(59vw,-216vw);}
  
-   .yellowflower3{
+   #yellowflower3{
     width: 14vw;
     transform: translate(44vw,-193vw);}
 
@@ -387,18 +387,18 @@ font-size: 3.75vw;
     transform: translate(12vw,-43vw);
     width: 45vw;}
   
-    .redflower{
+    #redflower{
       width: 8vw;
       transform: translate(17vw,211vw);
      }
      
-     .redflower2{
+     #redflower2{
        width: 8vw;
        transform: translate(34vw,211vw);
      
      }
      
-     .redflower3{
+     #redflower3{
        width: 8vw;
        transform: translate(51vw,211vw);}
      
